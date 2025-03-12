@@ -14,12 +14,12 @@ class Program
         if (numbers == null || numbers.Length == 0)
             throw new ArgumentException("Tablica nie może być pusta.");
 
-        int suma = 0;
+        int sumka = 0;
         foreach (var number in numbers)
         {
-            suma += number;
+            sumka += number;
         }
-        return (double)suma / numbers.Length;
+        return (double)sumka / numbers.Length;
     }
     public static int ZnajdzMaksimum(int[] numbers)
     {
